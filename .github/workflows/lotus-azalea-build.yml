@@ -59,7 +59,7 @@ jobs:
         
       - name: Build azalea
         run: |
-          cros_sdk zmake build azalea
+          zmake build azalea
           echo Built azalea EC
 
       - name: File sha256
