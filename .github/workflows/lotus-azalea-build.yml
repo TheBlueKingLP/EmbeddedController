@@ -14,10 +14,10 @@ jobs:
   build:
     name: Build lotus/azalea
     runs-on: ubuntu-20.04
-    # Build not in $GITHUB_HOME but in the chroot env
-    defaults:
-      run:
-        working-directory: /lotus/ec_home/chromiumos
+    # # Build not in $GITHUB_HOME but in the chroot env
+    # defaults:
+    #   run:
+    #     working-directory: /lotus/ec_home/chromiumos
 
     steps:
       # Need to use git
